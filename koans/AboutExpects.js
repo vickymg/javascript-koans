@@ -27,7 +27,7 @@ describe('About Expects', function() {
   // Sometimes you need to be precise about what you "type."
   it('should assert equality with ===', function() {
     var expectedValue = FILL_ME_IN;
-    var actualValue = (1 + 1).toString();
+    var actualValue = "Fill this value in";
 
   // toBe() will always use === to compare.
     expect(actualValue).toBe(expectedValue);
